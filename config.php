@@ -14,10 +14,4 @@
         die("hata: ".mysqli_connect_errno());
     }
 
-    echo "bağlantı tamam.";
-
-    mysqli_close($baglanti);
-
-    echo "bağlantı kapatıldı";
-
 ?>
